@@ -1,5 +1,5 @@
 ## Demo
-https://justmonk.github.io/react-newsfeed-spa-demo/
+https://justmonk.github.io/react-news-feed-spa-demo/
 ## Dependences
 ```
 npm install

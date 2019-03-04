@@ -57,7 +57,6 @@ class ScrollTopButton extends React.Component {
    }
 
    resizeHandler() {
-      console.log(`resize`);
       if (this.isThrottled === undefined) this.isThrottled = false;
       if (this.isQueueEmpty === undefined) this.isQueueEmpty = true;
       

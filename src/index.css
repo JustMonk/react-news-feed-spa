@@ -465,6 +465,13 @@ body {
    .post-content {
       min-height: 0;
    }
+   /*mobile message and buttons*/
+   .post-wall {
+      width: 100%;
+   }
+   .message {
+      width: auto;
+   }
 }
 
 @media only screen and (max-width: 500px) {
