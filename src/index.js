@@ -427,11 +427,6 @@ class PostWall extends React.Component {
       }
    }
 
-   wallUpdateBackup() {
-      this.setState({ postList: this.localList });
-      this.props.changeCount(document.querySelectorAll('.post').length, Object.keys(this.localList).length);
-   }
-
    getPostById(id) {
       if (!this.localList[id]) return;
       return (
